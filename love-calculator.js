@@ -9,7 +9,7 @@ if(name2.lenght<=2){
 }
 else{
     var random = Math.floor(Math.random()*100)
-    document.getElementById("print").innerHTML = name1 + "and " + name2 + " = "  +random + "%" + " of love"
+    document.getElementById("print").innerHTML = name1 + " and " + name2 + " = "  +random + "%" + " of love"
     if(random<=10 || random<=50){
         document.getElementById("statement").innerHTML = "Good Ralationship";
     }
